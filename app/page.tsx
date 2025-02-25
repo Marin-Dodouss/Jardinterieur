@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
       {/* Hero Section */}
-      <section className="relative h-[90vh] flex items-center justify-center">
+      <section className="relative min-h-[60vh] md:h-[90vh] flex items-center justify-center">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1531877025030-f7696a50770f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -20,18 +20,18 @@ export default function Home() {
         </div>
         
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+          <h1 className="text-2xl sm:text-3xl md:text-6xl font-bold text-white mb-4 md:mb-6">
             Salons de Jardin Upcyclés
           </h1>
-          <p className="text-xl text-white/90 mb-8">
+          <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 md:mb-8 px-4">
             Créations uniques et durables fabriquées en France (Lyon)
           </p>
-          <div className="flex gap-4 justify-center">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
+            <Button size="lg" className="bg-green-600 hover:bg-green-700 w-full sm:w-auto text-sm sm:text-base">
               Découvrir nos Produits
             </Button>
-            <Link href="/notre-histoire">
-              <Button size="lg" variant="outline" className="text-black border-white hover:bg-white/20">
+            <Link href="/notre-histoire" className="w-full sm:w-auto">
+              <Button size="lg" variant="outline" className="text-black border-white hover:bg-white/20 w-full text-sm sm:text-base">
                 Notre Histoire
               </Button>
             </Link>
@@ -40,39 +40,39 @@ export default function Home() {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 px-4">
+      <section className="py-8 sm:py-12 md:py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-16">Nos Valeurs</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <Card className="p-6 text-center">
-              <Leaf className="w-12 h-12 mx-auto mb-4 text-green-600" />
-              <h3 className="text-xl font-semibold mb-2">Éco-responsable</h3>
-              <p className="text-gray-600">Matériaux recyclés et processus de fabrication durable</p>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8 sm:mb-10 md:mb-16">Nos Valeurs</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
+            <Card className="p-4 sm:p-6 text-center">
+              <Leaf className="w-8 sm:w-10 h-8 sm:h-10 md:w-12 md:h-12 mx-auto mb-3 sm:mb-4 text-green-600" />
+              <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-2">Éco-responsable</h3>
+              <p className="text-xs sm:text-sm md:text-base text-gray-600">Matériaux recyclés et processus de fabrication durable</p>
             </Card>
-            <Card className="p-6 text-center">
-              <Recycle className="w-12 h-12 mx-auto mb-4 text-green-600" />
-              <h3 className="text-xl font-semibold mb-2">Upcycling</h3>
-              <p className="text-gray-600">Transformation créative de matériaux existants</p>
+            <Card className="p-4 sm:p-6 text-center">
+              <Recycle className="w-8 sm:w-10 h-8 sm:h-10 md:w-12 md:h-12 mx-auto mb-3 sm:mb-4 text-green-600" />
+              <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-2">Upcycling</h3>
+              <p className="text-xs sm:text-sm md:text-base text-gray-600">Transformation créative de matériaux existants</p>
             </Card>
-            <Card className="p-6 text-center">
-              <Heart className="w-12 h-12 mx-auto mb-4 text-green-600" />
-              <h3 className="text-xl font-semibold mb-2">Bien-être</h3>
-              <p className="text-gray-600">Confort et durabilité pour votre espace extérieur</p>
+            <Card className="p-4 sm:p-6 text-center">
+              <Heart className="w-8 sm:w-10 h-8 sm:h-10 md:w-12 md:h-12 mx-auto mb-3 sm:mb-4 text-green-600" />
+              <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-2">Bien-être</h3>
+              <p className="text-xs sm:text-sm md:text-base text-gray-600">Confort et durabilité pour votre espace extérieur</p>
             </Card>
-            <Card className="p-6 text-center">
-              <Star className="w-12 h-12 mx-auto mb-4 text-green-600" />
-              <h3 className="text-xl font-semibold mb-2">Artisanat Local</h3>
-              <p className="text-gray-600">Fabrication française et savoir-faire artisanal</p>
+            <Card className="p-4 sm:p-6 text-center">
+              <Star className="w-8 sm:w-10 h-8 sm:h-10 md:w-12 md:h-12 mx-auto mb-3 sm:mb-4 text-green-600" />
+              <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-2">Artisanat Local</h3>
+              <p className="text-xs sm:text-sm md:text-base text-gray-600">Fabrication française et savoir-faire artisanal</p>
             </Card>
           </div>
         </div>
       </section>
 
       {/* Featured Products Preview */}
-      <section className="bg-green-50 py-20 px-4">
+      <section className="bg-green-50 py-8 sm:py-12 md:py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-16">Nos Créations</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8 sm:mb-10 md:mb-16">Nos Créations</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {[
               {
                 title: "Salon Lounge Éco",
@@ -91,21 +91,23 @@ export default function Home() {
               }
             ].map((product, index) => (
               <Card key={index} className="overflow-hidden">
-                <img
-                  src={product.image}
-                  alt={product.title}
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-4">
-                  <h3 className="text-xl font-semibold mb-2">{product.title}</h3>
+                <div className="aspect-w-16 aspect-h-9">
+                  <img
+                    src={product.image}
+                    alt={product.title}
+                    className="w-full h-32 sm:h-40 md:h-48 object-cover"
+                  />
+                </div>
+                <div className="p-3 sm:p-4">
+                  <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-2">{product.title}</h3>
                   <p className="text-green-600 font-bold">{product.price}</p>
-                  <Button className="w-full mt-4">Voir le produit</Button>
+                  <Button className="w-full mt-3 sm:mt-4 text-sm sm:text-base">Voir le produit</Button>
                 </div>
               </Card>
             ))}
           </div>
-          <div className="text-center mt-12">
-            <Button size="lg" variant="outline" className="border-green-600 text-green-600 hover:bg-green-600 hover:text-white">
+          <div className="text-center mt-6 sm:mt-8 md:mt-12 px-4">
+            <Button size="lg" variant="outline" className="w-full sm:w-auto border-green-600 text-green-600 hover:bg-green-600 hover:text-white text-sm sm:text-base">
               Voir tous nos produits
             </Button>
           </div>
