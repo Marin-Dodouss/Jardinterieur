@@ -98,13 +98,13 @@ export default function Home() {
                 title: "Hamac Tropical",
                 image: "https://plus.unsplash.com/premium_photo-1661329898868-d69f8f40fbaf?q=80&w=3540&auto=format&fit=crop",
                 price: "249€",
-                href: "#"
+                href: "/produits/hamac-tropical"
               },
               {
                 title: "Coussins de Jardin Zen",
                 image: "https://images.unsplash.com/photo-1506591608813-bf1cc7ee7400?q=80&w=3387&auto=format&fit=crop",
                 price: "80€",
-                href: "#"
+                href: "/produits/coussins-jardin-zen"
               }
             ].map((product, index) => (
               <Link href={product.href} key={index}>

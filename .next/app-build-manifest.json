@@ -21,7 +21,7 @@
       "static/chunks/864-8f4fea0917ee3f2a.js",
       "static/chunks/main-app-3a092c3cc6938d49.js",
       "static/chunks/83-64407467a4bbea91.js",
-      "static/chunks/app/page-494d493b7fcf249a.js"
+      "static/chunks/app/page-7ebc73bc25ce671c.js"
     ],
     "/notre-histoire/page": [
       "static/chunks/webpack-ae69a32c28f854de.js",
@@ -37,7 +37,23 @@
       "static/chunks/864-8f4fea0917ee3f2a.js",
       "static/chunks/main-app-3a092c3cc6938d49.js",
       "static/chunks/83-64407467a4bbea91.js",
-      "static/chunks/app/produits/salon-lounge-eco/page-3d01498b3b95c648.js"
+      "static/chunks/app/produits/salon-lounge-eco/page-4d3250a99dd78ef7.js"
+    ],
+    "/produits/coussins-jardin-zen/page": [
+      "static/chunks/webpack-ae69a32c28f854de.js",
+      "static/chunks/fd9d1056-a349a70d35afeabb.js",
+      "static/chunks/864-8f4fea0917ee3f2a.js",
+      "static/chunks/main-app-3a092c3cc6938d49.js",
+      "static/chunks/83-64407467a4bbea91.js",
+      "static/chunks/app/produits/coussins-jardin-zen/page-9a21a9be3077e087.js"
+    ],
+    "/produits/hamac-tropical/page": [
+      "static/chunks/webpack-ae69a32c28f854de.js",
+      "static/chunks/fd9d1056-a349a70d35afeabb.js",
+      "static/chunks/864-8f4fea0917ee3f2a.js",
+      "static/chunks/main-app-3a092c3cc6938d49.js",
+      "static/chunks/83-64407467a4bbea91.js",
+      "static/chunks/app/produits/hamac-tropical/page-1e4d817cc0ee4b32.js"
     ]
   }
 }
