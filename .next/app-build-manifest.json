@@ -1,35 +1,43 @@
 {
   "pages": {
     "/_not-found": [
-      "static/chunks/webpack-2515b1fb8bf0b98f.js",
+      "static/chunks/webpack-ae69a32c28f854de.js",
       "static/chunks/fd9d1056-a349a70d35afeabb.js",
       "static/chunks/864-8f4fea0917ee3f2a.js",
       "static/chunks/main-app-3a092c3cc6938d49.js",
       "static/chunks/app/_not-found-1bdccb4a4b0519e5.js"
     ],
     "/layout": [
-      "static/chunks/webpack-2515b1fb8bf0b98f.js",
+      "static/chunks/webpack-ae69a32c28f854de.js",
       "static/chunks/fd9d1056-a349a70d35afeabb.js",
       "static/chunks/864-8f4fea0917ee3f2a.js",
       "static/chunks/main-app-3a092c3cc6938d49.js",
-      "static/css/9202049466d976e6.css",
-      "static/chunks/app/layout-3046a3561a4e2ca7.js"
+      "static/css/65bf0c3bb84b1f54.css",
+      "static/chunks/app/layout-068e25c6f4d11ab5.js"
     ],
     "/page": [
-      "static/chunks/webpack-2515b1fb8bf0b98f.js",
+      "static/chunks/webpack-ae69a32c28f854de.js",
       "static/chunks/fd9d1056-a349a70d35afeabb.js",
       "static/chunks/864-8f4fea0917ee3f2a.js",
       "static/chunks/main-app-3a092c3cc6938d49.js",
       "static/chunks/83-64407467a4bbea91.js",
-      "static/chunks/app/page-afa64aa3d5470017.js"
+      "static/chunks/app/page-494d493b7fcf249a.js"
     ],
     "/notre-histoire/page": [
-      "static/chunks/webpack-2515b1fb8bf0b98f.js",
+      "static/chunks/webpack-ae69a32c28f854de.js",
       "static/chunks/fd9d1056-a349a70d35afeabb.js",
       "static/chunks/864-8f4fea0917ee3f2a.js",
       "static/chunks/main-app-3a092c3cc6938d49.js",
       "static/chunks/83-64407467a4bbea91.js",
-      "static/chunks/app/notre-histoire/page-75e743f0e4da90b7.js"
+      "static/chunks/app/notre-histoire/page-05d7a8dab3e7f40f.js"
+    ],
+    "/produits/salon-lounge-eco/page": [
+      "static/chunks/webpack-ae69a32c28f854de.js",
+      "static/chunks/fd9d1056-a349a70d35afeabb.js",
+      "static/chunks/864-8f4fea0917ee3f2a.js",
+      "static/chunks/main-app-3a092c3cc6938d49.js",
+      "static/chunks/83-64407467a4bbea91.js",
+      "static/chunks/app/produits/salon-lounge-eco/page-3d01498b3b95c648.js"
     ]
   }
 }
