@@ -1,4 +1,4 @@
-// File: /home/project/app/notre-histoire/page.tsx
+// File: C:\Users\marin\OneDrive\Documents\Software\Dev\jardinterieur\app\notre-histoire\page.tsx
 import * as entry from '../../../../app/notre-histoire/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
