@@ -91,35 +91,40 @@ export default function Home() {
               {
                 title: "Salon Lounge Éco",
                 image: "https://plus.unsplash.com/premium_photo-1671014964740-a12aed9dc495?q=80&w=3387&auto=format&fit=crop",
-                price: "899€"
+                price: "899€",
+                href: "/produits/salon-lounge-eco"
               },
               {
                 title: "Hamac Tropical",
                 image: "https://plus.unsplash.com/premium_photo-1661329898868-d69f8f40fbaf?q=80&w=3540&auto=format&fit=crop",
-                price: "249€"
+                price: "249€",
+                href: "#"
               },
               {
                 title: "Coussins de Jardin Zen",
                 image: "https://images.unsplash.com/photo-1506591608813-bf1cc7ee7400?q=80&w=3387&auto=format&fit=crop",
-                price: "80€"
+                price: "80€",
+                href: "#"
               }
             ].map((product, index) => (
-              <Card key={index} className="overflow-hidden group hover:shadow-xl transition-shadow">
-                <div className="relative aspect-[4/3]">
-                  <Image
-                    src={product.image}
-                    alt={product.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">{product.title}</h3>
-                  <p className="text-green-600 font-bold text-lg mb-4">{product.price}</p>
-                  <Button className="w-full">Voir le produit</Button>
-                </div>
-              </Card>
+              <Link href={product.href} key={index}>
+                <Card className="overflow-hidden group hover:shadow-xl transition-shadow">
+                  <div className="relative aspect-[4/3]">
+                    <Image
+                      src={product.image}
+                      alt={product.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold mb-2">{product.title}</h3>
+                    <p className="text-green-600 font-bold text-lg mb-4">{product.price}</p>
+                    <Button className="w-full">Voir le produit</Button>
+                  </div>
+                </Card>
+              </Link>
             ))}
           </div>
           <div className="text-center mt-12">
