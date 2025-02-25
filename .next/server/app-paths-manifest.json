@@ -2,5 +2,7 @@
   "/_not-found": "app/_not-found.js",
   "/page": "app/page.js",
   "/notre-histoire/page": "app/notre-histoire/page.js",
-  "/produits/salon-lounge-eco/page": "app/produits/salon-lounge-eco/page.js"
+  "/produits/hamac-tropical/page": "app/produits/hamac-tropical/page.js",
+  "/produits/salon-lounge-eco/page": "app/produits/salon-lounge-eco/page.js",
+  "/produits/coussins-jardin-zen/page": "app/produits/coussins-jardin-zen/page.js"
 }
