@@ -15,7 +15,7 @@ export default function Home() {
           <div className="relative w-full h-full">
             <Image
               src="https://images.unsplash.com/photo-1531877025030-f7696a50770f?q=80&w=3540&auto=format&fit=crop"
-              alt="Kids furniture background"
+              alt="upcycled garden furnitures"
               fill
               priority
               className="object-cover"
